@@ -1,0 +1,23 @@
+
+---
+
+### **2. 29_APIRelayMonitor**  
+**Description:**  
+A CLI utility to check the uptime and latency of multiple endpoints with round-robin scanning.
+
+#### **README.md**
+```markdown
+# APIRelayMonitor - Multi-Endpoint Health Tracker
+
+APIRelayMonitor rotates through a list of endpoints, logs response codes and speed, and reports failures.
+
+## Features
+- Round-robin scanning  
+- Status + latency log  
+- Output to console or CSV  
+
+## Usage
+```bash
+git clone https://github.com/your-username/29_APIRelayMonitor.git
+cd 29_APIRelayMonitor
+python monitor.py
