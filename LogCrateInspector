@@ -1,0 +1,20 @@
+
+**Description:**  
+Scans and summarizes high-frequency patterns in system or application logs.
+
+#### **README.md**
+```markdown
+# LogCrateInspector - Repetition & Pattern Analyzer
+
+LogCrateInspector helps you understand the health of your system by surfacing frequent log lines and common warnings.
+
+## Features
+- Keyword frequency sorting  
+- Highlights error clusters  
+- Minimal setup  
+
+## Usage
+```bash
+git clone https://github.com/your-username/29_LogCrateInspector.git
+cd 29_LogCrateInspector
+python analyze.py logs/server.log
